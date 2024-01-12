@@ -1,0 +1,16 @@
+{
+  "name": "harder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-http-header-size=210000 discordBridge.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2"
+  }
+}
